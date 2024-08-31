@@ -105,27 +105,33 @@ nav ul button:hover {
 }
 
 .header-block img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 30%;
-  position: absolute;
+  margin: 20px;
   right: 4%;
   bottom: 15%;
 }
 
 .header-block .text {
-  position: absolute;
+  margin: 0;
+  text-align: center; 
   bottom: 50%;
   left: 20%;
 }
 
 .header-block .text h2 {
   color: white;
-  margin-bottom: 20px;
+  margin: 0;
   text-align: right;
   transform: translateX(-20px);
   transition: transform 0.5s;
 }
 
 .header-block .text p {
+  margin: 0;
   max-width: 280px;
   color: white;
   text-align: right;
@@ -143,7 +149,7 @@ section .catalog {
 section .filter-card {
   width: 980px;
   height: 150px;
-  background: var(--gray);
+  background: var(--grey);
   border-radius: 8px;
   margin: 0 auto;
   display: flex;
