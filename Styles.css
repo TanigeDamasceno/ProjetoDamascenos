@@ -484,5 +484,6 @@ footer .last {
   .footer-links {
     flex-direction: column;
     padding-left: 10%;
+    text-align: left
   }
 }
